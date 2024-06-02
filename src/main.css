@@ -1,0 +1,92 @@
+main.HomePage{
+    height: 100vh;
+}
+
+.notesContainer{
+    display: flex;
+    overflow-x: scroll;
+    padding-bottom: 5px;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.note{
+    padding: 7px;
+    margin: 5px;
+    border: 1px solid black;
+    width: 75px;
+    min-width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #aaa;
+    text-align: center;
+}
+
+.note h4{
+    margin: 3px;
+}
+.note p{
+    margin: 3px;
+}
+
+#searchBar{
+    margin-right: 10px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #888;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.searchContainer{
+    display: flex;
+    margin-top: 10px;
+
+}
+
+#submit{
+    width: 75px;
+
+}
+
+.usersContainer{
+    margin-top: 10px;
+    overflow: scroll;
+    height: 475px;
+    background-color: #ccc;
+    border-radius: 10px;
+    padding: 5px;
+}
+.user{
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #9b9b9b;
+    border-radius: 15px;
+    transition: 0.5s ease;
+}
+
+.user:hover{
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #888;
+    border-radius: 15px;
+}
+.user h4{
+    margin: 0px;
+}
+.user p{
+    margin: 0px;
+}
+
+div.profilepic{
+    position: relative;
+    float: left;
+    height: 35px;
+    width: 35px;
+    border-radius: 25px;
+    background-color: #444;
+    margin-right: 5px;
+
+}
+
